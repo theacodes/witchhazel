@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./witchhazel.tmTheme",
+	"colors": {
+		"editor.background": "#433E56",
+		"editorCursor.foreground": "#F8F8F0",
+		"editor.foreground": "#F8F8F2",
+		"editorWhitespace.foreground": "#A8757B",
+		"editor.lineHighlightBackground": "#716799",
+		"editor.selectionBackground": "#8077A8",
+	},
+	"name": "Witch Hazel"
+}

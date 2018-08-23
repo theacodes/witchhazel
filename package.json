@@ -1,0 +1,22 @@
+{
+    "name": "witch-hazel",
+    "displayName": "Witch Hazel",
+    "description": "A dark and feminine color scheme",
+    "version": "0.0.1",
+    "publisher": "theacodes",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Witch Hazel",
+                "uiTheme": "vs-dark",
+                "path": "./Witch Hazel-color-theme.json"
+            }
+        ]
+    }
+}
