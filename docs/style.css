@@ -1,6 +1,6 @@
 body {
-  background: #433E56;
-  color: #F8F8F2;
+  background: #ade5d3;
+  color: #433E56;
   font-size: 1.5em;
   font-family: 'Coming Soon', cursive;
 }
@@ -15,6 +15,12 @@ body {
 }
 
 img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+img.screenshot {
   max-width: 100%;
   box-shadow: 0 0 3em #C5A3FF;
 }
@@ -27,7 +33,8 @@ h1 {
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 6em;
   margin: 0;
-  color: #C5A3FF;
+  color: #d9efe8;
+  text-shadow: 0 0 4em #C5A3FF;
   text-align: center;
 }
 
@@ -39,11 +46,11 @@ h2 {
 }
 
 a, a:visited {
-  color: #C2FFDF;
+  color: #0070a2;
 }
 
 a:focus, a:hover {
-  color: #63c8f6;
+  color: #C5A3FF;
 }
 
 a {
@@ -53,7 +60,7 @@ a {
 code {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.8em;
-  background: #C5A3FF;
+  background: #e7daff;
   color: #433E56;
   border-radius: 0.2em;
   padding: 0.2em;
