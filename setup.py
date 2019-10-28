@@ -42,4 +42,5 @@ setup(
         "Source Code": "https://github.com/theacodes/witchhazel",
         "Bug Tracker": "https://github.com/theacodes/witchhazel/issues",
     },
+    entry_points = {'pygments.styles': ['witchhazel = witchhazel:WitchHazelStyle']},
 )
