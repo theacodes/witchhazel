@@ -288,6 +288,183 @@
                 <string>#F8F8F0</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown header</string>
+            <key>scope</key>
+            <string>markup.heading.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFF352</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown inline link</string>
+            <key>scope</key>
+            <string>meta.link.inline.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C2FFDF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown reference link</string>
+            <key>scope</key>
+            <string>meta.link.reference.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C2FFDF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown inline link title</string>
+            <key>scope</key>
+            <string>string.other.link.title.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1BC5E0</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown inline link url</string>
+            <key>scope</key>
+            <string>markup.underline.link.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown inline link url</string>
+            <key>scope</key>
+            <string>markup.underline.link.image.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>underline italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown bold</string>
+            <key>scope</key>
+            <string>markup.bold.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown italic</string>
+            <key>scope</key>
+            <string>markup.italic.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F2</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown image</string>
+            <key>scope</key>
+            <string>meta.image.inline.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ceb1ff</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown image title</string>
+            <key>scope</key>
+            <string>string.other.link.description.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1BC5E0</string>
+                <key>fontStyle</key>
+                <string>bold italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown inline code</string>
+            <key>scope</key>
+            <string>markup.inline.raw.string.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFF352</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown fenced code</string>
+            <key>scope</key>
+            <string>markup.fenced_code.block.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFB8D1</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown fenced code language name</string>
+            <key>scope</key>
+            <string>fenced_code.block.language.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown fenced code content</string>
+            <key>scope</key>
+            <string>meta.embedded.block</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F8F8F0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown list</string>
+            <key>scope</key>
+            <string>punctuation.definition.list.begin.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C5A3FF</string>
+            </dict>
+        </dict>
     </array>
     <key>uuid</key>
     <string>D8D5E82E-3D5B-46B5-C0DE-8C841C21347D</string>
