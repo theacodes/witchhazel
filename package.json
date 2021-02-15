@@ -3,7 +3,7 @@
     "repository": "https://github.com/theacodes/witchhazel",
     "displayName": "Witch Hazel",
     "description": "A dark and feminine color scheme",
-    "version": "2021.1.20",
+    "version": "2021.2.15",
     "publisher": "TheaFlowers",
     "engines": {
         "vscode": "^1.26.0"
@@ -17,6 +17,11 @@
                 "label": "Witch Hazel",
                 "uiTheme": "vs-dark",
                 "path": "./Witch Hazel-color-theme.json"
+            },
+            {
+                "label": "Witch Hazel Hypercolor",
+                "uiTheme": "vs-dark",
+                "path": "./Witch Hazel-hypercolor-theme.json"
             }
         ]
     }
