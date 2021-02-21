@@ -125,7 +125,6 @@
 		"debugView.exceptionLabelForeground": "#FF81AD",
 		"debugExceptionWidget.background": "#CB6488",
 		"debugExceptionWidget.border": "#CB6488",
-		"editorInfo.background": "#ff0000",
 	},
 	"name": "Witch Hazel"
 }
