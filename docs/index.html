@@ -19,15 +19,40 @@
     </p>
     <h1>Witch Hazel</h1>
     <h2>A dark &amp; feminine color scheme for Sublime, VS Code, JetBrains, and Pygments.</h2>
+    <p class="buttons">
+      <span data-button-group>
+        <button data-target="img-hypercolor" class="active" type="button">Hypercolor</button>
+        <button data-target="img-classic" type="button">Classic</button>
+      </span>
+    </p>
     <p>
-      <img class="screenshot" src="screen.png" alt="Witch Hazel theme in Sublime Text" title="Witch Hazel theme in Sublime Title">
+      <img id="img-hypercolor" class="screenshot" src="screen-hyper.png" alt="Screen cap of Witch Hazel Hypercolor theme in VSCode" title="Witch Hazel Hypercolor theme in VSCode">
+      <img id="img-classic" class="screenshot hide" src="screen-classic.png" alt="Screen cap of Witch Hazel Classic theme in VSCode" title="Witch Hazel Classic theme in VSCode">
     </p>
     <p class="with-love">
-      Made with <em>&hearts;</em> by <a href="https://thea.codes">Thea Flowers</a>.
+      Made with <em>&hearts;</em> by <a href="https://thea.codes">Stargirl Flowers</a>.
     </p>
-    <hr>
-    <h3><a href="https://www.sublimetext.com">Sublime Text</a> installation</h3>
-    <p>
+
+    <div data-button-group data-hide-targets>
+      <button data-target="vscode" class="active" type="button">VSCode</button>
+      <button data-target="sublime" type="button">Sublime</button>
+      <button data-target="jetbrains" type="button">JetBrains</button>
+      <button data-target="atom" type="button">Atom</button>
+      <button data-target="pygments" type="button">Pygments</button>
+      <button data-target="others" type="button">Others</button>
+    </div>
+
+    <section id="vscode">
+      <h3><a href="https://code.visualstudio.com">VS Code</a> installation</h3>
+      <ol>
+        <li>Go to <code>View -> Extensions</code>.</li>
+        <li>Search for <code>Witch Hazel</code> and click <code>Install</code>.</li>
+        <li>Pick <code>Witch Hazel Hypercolor</code> or <code>Witch Hazel</code> using <code>Preferences -> Color Theme</code>.</li>
+      </ol>
+    </section>
+
+    <section id="sublime">
+      <h3><a href="https://www.sublimetext.com">Sublime Text</a> installation</h3>
       With <a href="https://packagecontrol.io/">Package Control</a>:
       <ol>
         <li>Open the command palette using <code>ctrl+shift+p</code> (Windows & Linux) or <code>cmd+shift+p</code> (macOS).</li>
@@ -35,60 +60,99 @@
         <li>Search for <code>Witch Hazel</code> and install it.</li>
         <li>Pick <code>Witch Hazel</code> using <code>Preferences -> Color Scheme</code>.</li>
       </ol>
-    </p>
-    <p>
       Manual installation:
       <ol>
-        <li><a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/witchhazel.tmTheme">Download the theme</a>.</li>
+        <li>Download the theme: <a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/witchhazel.tmTheme">Classic</a>, <a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/witchhazelhypercolor.tmTheme">Hypercolor</a>.</li>
         <li>Open the packages directory using <code>Preferences -> Browse Packages...</code>.</li>
         <li>Copy the theme file into your packages directory.</li>
         <li>Pick <code>Witch Hazel</code> using <code>Preferences -> Color Scheme</code>.</li>
       </ol>
-    </p>
-    <h3><a href="https://code.visualstudio.com">VS Code</a> installation</h3>
-    <p>
-      <ol>
-        <li>Go to <code>View -> Extensions</code>.</li>
-        <li>Search for <code>Witch Hazel</code> and click <code>Install</code>.</li>
-        <li>Pick <code>Witch Hazel</code> using <code>Preferences -> Color Theme</code>.</li>
-      </ol>
-    </p>
-    <h3><a href="https://www.jetbrains.com/pycharm/">JetBrains</a> (PyCharm, IntelliJ, etc.) installation</h3>
-    <p>
+    </section>
+
+    <section id="jetbrains">
+      <h3><a href="https://www.jetbrains.com/pycharm/">JetBrains</a> installation</h3>
+      <em>This includes PyCharm, IntelliJ, CLion, etc. </em>
       <ol>
         <li><a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/witchhazel.icls">Download the theme</a>.</li>
         <li>Go to <code>Preferences -> Editor -> Color Scheme</code>.</li>
         <li>Click the <code>gear</code> icon and choose <code>Import Scheme</code>.</li>
         <li>Navigate to the downloaded theme file.</li>
       </ol>
-    </p>
-    <h3><a href="http://pygments.org">Pygments</a> &amp; <a href="http://www.sphinx-doc.org">Sphinx</a> installation</h3>
-    <p>
+    </section>
+
+    <section id="pygments">
+      <h3><a href="http://pygments.org">Pygments</a> &amp; <a href="http://www.sphinx-doc.org">Sphinx</a> installation</h3>
       <ol>
         <li>Install using <code>pip install witchhazel</code>.</li>
         <li>Open your docs <code>conf.py</code>.</li>
         <li>Set <code>pygments_style = "witchhazel.WitchHazelStyle"</code>.</li>
       </ol>
-    </p>
-    <h3><a href="https://atom.io/">Atom</a> installation</h3>
-    <p>
+    </section>
+
+    <section id="atom">
+      <h3><a href="https://atom.io/">Atom</a> installation</h3>
       <ol>
         <li><a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/witch-hazel-syntax.zip">Download the theme</a>.</li>
         <li>Locate the Atom packages directory (listed at the top of <code>Settings -> Install</code>).</li>
         <li>Unzip the theme folder into the Atom packages directory.</li>
         <li>Pick <code>Witch Hazel</code> using <code>Settings -> Themes -> Syntax Theme</code>.</li>
       </ol>
-    </p>
+    </section>
+
+    <section id="others">
+      <p>
+        If your editor supports <code>tmTheme</code> files, then you can download the theme and install it: <a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/witchhazel.tmTheme">Classic</a>, <a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/witchhazelhypercolor.tmTheme">Hypercolor</a>
+      </p>
+      <p>
+        If not, you can port it! Let us know if you need any help and <a href="https://github.com/theacodes/witchhazel">send a pull request</a>.
+      </p>
+    </section>
     <hr>
-    <p>
-      <small>This theme was created using <a href="http://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai">this editor</a> and based on the amazing <a href="http://sailorhg.github.io/fairyfloss/">FairyFloss</a> theme.</small>
+    <p class="credits">
+      This theme was created using <a href="http://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai">this editor</a> and is inspired by the amazing <a href="http://sailorhg.github.io/fairyfloss/">FairyFloss</a> theme.
+      It's hosted on <a href="https://github.com/theacodes/witchhazel">GitHub</a> and contributions are welcome!
     </p>
   </div>
 
   <!-- webfonts & icons-->
-  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Coming+Soon|Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Delius+Swash+Caps" rel="stylesheet">
 
-  <!-- Google Analytics TODO -->
+  <script type="text/javascript">
+  const btn_groups = document.querySelectorAll("[data-button-group]");
+
+  for(const btn_group of btn_groups) {
+    const btns = Array.from(btn_group.querySelectorAll("button"));
+    const targets = btns.map((btn) => document.getElementById(btn.dataset.target));
+
+    if(btn_group.dataset.hideTargets !== undefined) {
+      const active_btn = btn_group.querySelector("button.active");
+      for(const target of targets) {
+        if(active_btn.dataset.target != target.id) {
+          target.classList.add("hide");
+        }
+      }
+    }
+
+    for(const btn of btns) {
+      btn.addEventListener("click", () => {
+        for(const target of targets) {
+          if(target.id == btn.dataset.target) {
+            target.classList.remove("hide");
+          } else {
+            target.classList.add("hide");
+          }
+        }
+        for(const other_btn of btns) {
+          if(other_btn != btn) {
+            other_btn.classList.remove("active");
+          }
+        }
+        btn.classList.add("active");
+      });
+    }
+  }
+
+  </script>
 
 </body>
 </html>
