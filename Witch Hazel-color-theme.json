@@ -7,6 +7,8 @@
 		"editorWhitespace.foreground": "#A8757B",
 		"editor.lineHighlightBackground": "#716799",
 		"editor.selectionBackground": "#8077A8",
+		"editorIndentGuide.background": "#716799",
+		"editorIndentGuide.activeBackground": "#C8F8FF",
 		"editor.findMatchBackground": "#a37c8a",
 		"editor.findMatchHighlightBackground": "#7f5c68",
 		"editor.findRangeHighlightBackground": "#6c677c",

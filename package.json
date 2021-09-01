@@ -1,10 +1,27 @@
 {
     "name": "witch-hazel",
-    "repository": "https://github.com/theacodes/witchhazel",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theacodes/witchhazel"
+    },
     "displayName": "Witch Hazel",
     "description": "A dark and feminine color scheme",
-    "version": "2021.7.14",
+    "version": "2021.8.31",
     "publisher": "TheaFlowers",
+    "icon": "images/witch-hazel-circle-icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://github.com/theacodes/witchhazel/blob/main/README.md",
+	"bugs": {
+		"url": "https://github.com/theacodes/witchhazel/issues"
+	},
+	"badges": [
+		{
+			"url": "https://flat.badgen.net/badge/sponsor/%E2%9D%A4/purple?icon=github",
+			"href": "https://github.com/sponsors/theacodes",
+			"description": "Sponsor me on GitHub!"
+		}
+	],
+	"qna": false,
     "engines": {
         "vscode": "^1.26.0"
     },
