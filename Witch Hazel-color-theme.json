@@ -71,7 +71,15 @@
 		"titleBar.activeBackground": "#464258",
 		"titleBar.activeForeground": "#F8F8F2",
 		"titleBar.inactiveBackground": "#3a3553",
-		"titleBar.inactiveForeground": "#b9b9b9"
+		"titleBar.inactiveForeground": "#b9b9b9",
+        "gitDecoration.addedResourceForeground": "#C2FFDF",
+        "gitDecoration.modifiedResourceForeground": "#FFF781",
+        "gitDecoration.deletedResourceForeground": "#C5A3FF",
+        "gitDecoration.renamedResourceForeground": "#C2FFDF",
+		"gitDecoration.stageModifiedResourceForeground": "#64CB96",
+        "gitDecoration.stageDeletedResourceForeground": "#8077A8",
+        "gitDecoration.untrackedResourceForeground": "#b9b9b9",
+        "gitDecoration.ignoredResourceForeground": "#B0BEC5"
 	},
 	"name": "Witch Hazel"
 }
