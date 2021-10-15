@@ -129,6 +129,14 @@
 		"debugView.exceptionLabelForeground": "#FF81AD",
 		"debugExceptionWidget.background": "#CB6488",
 		"debugExceptionWidget.border": "#CB6488",
+		"gitDecoration.addedResourceForeground": "#A3F3FF",
+		"gitDecoration.modifiedResourceForeground": "#FFF781",
+		"gitDecoration.deletedResourceForeground": "#FFA3C3",
+		"gitDecoration.renamedResourceForeground": "#81EEFF",
+		"gitDecoration.stageModifiedResourceForeground":"#81FFBE",
+		"gitDecoration.stageDeletedResourceForeground":"#FF81AD",
+		"gitDecoration.untrackedResourceForeground":"#C8F8FF",
+		"gitDecoration.ignoredResourceForeground":"#DCC8FFAA"
 	},
 	"name": "Witch Hazel"
 }
