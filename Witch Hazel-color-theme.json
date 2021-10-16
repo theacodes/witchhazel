@@ -27,6 +27,7 @@
 		"sideBarSectionHeader.background": "#48425c",
 		"sideBarSectionHeader.foreground": "#F8F8F2",
 		"activityBar.background": "#353144",
+		"tab.activeBackground": "#716799",
 		"tab.inactiveBackground": "#464258",
 		"tab.inactiveForeground": "#F8F8F2",
 		"tab.border": "#464258",
