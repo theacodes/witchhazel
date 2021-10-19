@@ -91,6 +91,18 @@
         "editorWarning.foreground": "#FF857F",
         "problemsErrorIcon.foreground": "#FF81AD",
         "problemsWarningIcon.foreground": "#FF857F",
+		"editorOverviewRuler.modifiedForeground": "#FFF781",
+        "editorOverviewRuler.addedForeground": "#C2FFDF",
+        "editorOverviewRuler.deletedForeground": "#8077A8",
+		"editorOverviewRuler.findMatchForeground": "#7f5c68",
+        "editorGutter.modifiedBackground": "#FFF781",
+        "editorGutter.addedBackground": "#C2FFDF",
+        "editorGutter.deletedBackground": "#8077A8",
+        "minimapGutter.modifiedBackground": "#FFF781",
+        "minimapGutter.addedBackground": "#C2FFDF",
+        "minimapGutter.deletedBackground": "#8077A8",
+        "minimap.findMatchHighlight": "#7f5c68",
+        "minimap.selectionHighlight": "#C5A3FF",
 	},
 	"name": "Witch Hazel"
 }
