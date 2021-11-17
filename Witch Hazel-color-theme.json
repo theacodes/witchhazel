@@ -103,6 +103,12 @@
         "minimapGutter.deletedBackground": "#8077A8",
         "minimap.findMatchHighlight": "#7f5c68",
         "minimap.selectionHighlight": "#C5A3FF",
+		"settings.modifiedItemIndicator": "#FFF781",
+        "settings.checkboxBackground": "#8077A8",
+        "settings.checkboxForeground": "#F8F8F2",
+        "settings.checkboxBorder": "#F8F8F2",
+        "settings.headerForeground": "#8077A8",
+		"settings.focusedRowBorder": "#C5A3FF"
 	},
 	"name": "Witch Hazel"
 }
