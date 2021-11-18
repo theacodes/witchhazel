@@ -3,7 +3,8 @@
 Are you 
 
 - [ ] reporting a bug
-- [ ] suggesting a new feature
+- [ ] suggesting a new **feature for an existing editor theme**
+- [ ] suggesting this theme for a **new editor that is not yet supported**
 
 ## Which editor does this issue concern?
 
