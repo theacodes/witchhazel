@@ -108,7 +108,17 @@
         "settings.checkboxForeground": "#F8F8F2",
         "settings.checkboxBorder": "#F8F8F2",
         "settings.headerForeground": "#8077A8",
-		"settings.focusedRowBorder": "#C5A3FF"
+		"settings.focusedRowBorder": "#C5A3FF",
+		"diffEditor.removedTextBackground": "#7f5c68",
+		"diffEditor.insertedTextBackground" : "#6A8D7A",
+		"gitlens.trailingLineForegroundColor": "#F8F8F2",
+		"merge.currentHeaderBackground":  "#a59900",
+		"merge.currentContentBackground": "#7d7100",
+		"merge.incomingHeaderBackground": "#008ea7",
+		"merge.incomingContentBackground": "#005c75",
+		"merge.border": "#F8F8F2",
+		"editorOverviewRuler.currentContentForeground": "#7d7100",
+		"editorOverviewRuler.incomingContentForeground": "#005c75",
 	},
 	"name": "Witch Hazel"
 }
