@@ -1,0 +1,30 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Witch Hazel",
+    "description": "Dark theme designed by @theacodes",
+    "description_full": "Dark theme designed by @theacodes",
+    "identifier": "codes.thea.witchhazel",
+    "type": "colortheme",
+    "author": {
+        "name": "Alethea Katherine Flowers",
+        "contact": {
+            "web": "https://thea.codes"
+        }
+    },
+    "maintainer": {
+        "name": "Alethea Katherine Flowers",
+        "contact": {
+            "web": "https://thea.codes"
+        }
+    },
+    "license": "Apache-2.0",
+    "resources": {
+        "Website": "https://witchhazel.thea.codes",
+        "Github": "https://github.com/theacodes/witchhazel"
+    },
+    "versions": [{
+        "version": "1.0",
+        "status": "testing",
+        "kicad_version": "6.0.0"
+    }]
+}
