@@ -18,7 +18,7 @@
       <img src="logo.png" alt="Witch Hazel logo" title="Witch Hazel logo">
     </p>
     <h1>Witch Hazel</h1>
-    <h2>A dark &amp; feminine color scheme for Sublime, VS Code, JetBrains, and Pygments.</h2>
+    <h2>A dark &amp; feminine color scheme for Sublime, VS Code, JetBrains, Pygments, Atom, and Vim.</h2>
     <p class="buttons">
       <span data-button-group>
         <button data-target="img-hypercolor" class="active" type="button">Hypercolor</button>
@@ -42,6 +42,7 @@
       <button data-target="jetbrains" type="button">JetBrains</button>
       <button data-target="atom" type="button">Atom</button>
       <button data-target="pygments" type="button">Pygments</button>
+      <button data-target="vim" type="button">Vim</button>
       <button data-target="others" type="button">Others</button>
     </div>
 
@@ -99,6 +100,32 @@
         <li>Locate the Atom packages directory (listed at the top of <code>Settings -> Install</code>).</li>
         <li>Unzip the theme folder into the Atom packages directory.</li>
         <li>Pick <code>Witch Hazel</code> using <code>Settings -> Themes -> Syntax Theme</code>.</li>
+      </ol>
+    </section>
+
+    <section id="vim">
+      <h3><a href="https://www.vim.org/">Vim</a> and <a href="https://neovim.io/">Neovim</a> installation</h3>
+      <em>Note for either vim or neovim the <code>termguicolors</code> global option should be true</em></br></br>
+      With <a href="https://github.com/junegunn/vim-plug">vim-plug</a>:
+      <ol>
+        <li>Add the vimscript command <code>Plug 'theacodes/witchhazel'</code> alongside your other plugins between <code>plug#begin()</code> and <code>plug#end()</code></li>
+        <li>Source the modified file and run the vimscript command <code>PlugInstall</code></li>
+        <li>Add the vimscript command <code>colorscheme witchhazel</code> to your <code>.vimrc</code> or <code>init.vim</code></li>
+        <li>Restart <code>vim</code> or run the vimscript command <code>colorscheme witchhazel</code></li>
+      </ol>
+      With <a href="https://github.com/wbthomason/packer.nvim">packer.nvim</a> (Neovim only):
+      <ol>
+        <li>Add the table <code>use { "theacodes/witchhazel" }</code> to the <code>packer.startup</code> call</li>
+        <li>Source the modified file and run the vimscript command <code>PackerSync</code></li>
+        <li>Add <code>vim.cmd "colorscheme witchhazel"</code> to your <code>init.lua</code></li>
+        <li>Restart <code>nvim</code> or run the vimscript command <code>colorscheme witchhazel</code></li>
+      </ol>
+      Manual installation:
+      <ol>
+        <li>Download the theme: <a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/colors/witchhazel.vim">Classic</a>, <a href="https://raw.githubusercontent.com/theacodes/witchhazel/master/colors/witchhazel-hypercolor.vim">Hypercolor</a>.</li>
+        <li>Copy the file to the colors directory (default <code>$HOME/.vim/colors/</code> for Vim, <code>$HOME/.config/nvim/colors/</code> for Neovim)</li>
+        <li>Add the vimscript command <code>colorscheme witchhazel</code> to your <code>.vimrc</code> or <code>init.vim</code></li>
+        <li>Restart <code>vim</code> or run the vimscript command <code>colorscheme witchhazel</code></li>
       </ol>
     </section>
 
