@@ -22,7 +22,7 @@ long_description = open("README.md", "r", encoding="utf-8").read()
 
 setup(
     name="witchhazel",
-    version="2018.8.23",
+    version="2022.9.8",
     description="A dark & feminine color scheme for Pygments",
     long_description=long_description,
     long_description_content_type="text/markdown",
