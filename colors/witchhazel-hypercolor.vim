@@ -12,17 +12,17 @@ if version > 580
 endif
 
 let s:lightgrey = "#BFBFBF"
-let s:linen = "#F8F8F2"
+let s:linen = "#F8F8F0"
 let s:mint = "#81FFBE"
 let s:pink = "#FFB8D1"
 let s:brick = "#DC7070"
 let s:clay = "#894E63"
 let s:rouge = "#960050"
 let s:turquoise = "#81EEFF"
-let s:sunflower = "#FFF352"
+let s:sunflower = "#FFF9A3"
 
 let s:lilac = "#DCC8FF"
-let s:darklilac = "#C5A3FF"
+let s:darklilac = "#AE81FF"
 let s:amethyst = "#131218"
 let s:purps = "#282634"
 let s:shadow = "#3B364E"
@@ -44,14 +44,68 @@ fun <SID>X(group, fg, bg, attr)
 endfun
 
 "set t_Co=256
-let g:colors_name="witchhazel"
+let g:colors_name="witchhazel-hypercolor"
 call <SID>X("Normal", s:linen, s:purps, "")
+call <SID>X("CursorColumn", "", s:amethyst, "")
+call <SID>X("Conceal", "", "", "")
+call <SID>X("CursorIM", "", "", "")
+call <SID>X("CursorLineNr", s:lightgrey, s:amethyst, "")
+call <SID>X("Directory", s:turquoise, "", "")
+call <SID>X("DiffAdd", s:mint, s:linen, "reverse")
+call <SID>X("DiffDelete", s:rouge, s:linen, "reverse")
+call <SID>X("DiffChange", s:rouge, s:linen, "reverse")
+call <SID>X("DiffText", s:rouge, s:linen, "reverse")
+hi link EndOfBuffer NonText
+call <SID>X("ErrorMsg", s:linen, s:brick, "")
+call <SID>X("FoldColumn", s:sunflower, s:purps, "")
+call <SID>X("Folded", s:lightgrey, s:shadow, "")
+call <SID>X("Ignore", s:lightgrey, "", "")
+call <SID>X("IncSearch", s:sunflower, "", "reverse")
+call <SID>X("InfoPopup", s:darklilac, s:shadow, "")
+call <SID>X("LineNr", s:lightgrey, "", "")
+call <SID>X("MatchParen", s:turquoise, s:purps, "")
+call <SID>X("ModeMsg", s:mint, "", "")
+call <SID>X("MoreMsg", s:mint, "", "")
 call <SID>X("NonText", s:lightgrey, "", "")
+call <SID>X("NvimInternalError", s:rouge, s:rouge, "")
+call <SID>X("PMenu", s:darklilac, s:shadow, "")
+call <SID>X("PMenuSbar", s:darklilac, s:shadow, "")
+call <SID>X("PMenuSel", s:linen, s:darklilac, "")
+call <SID>X("PMenuThumb", s:darklilac, s:shadow, "")
+call <SID>X("Question", s:mint, "", "")
+call <SID>X("RedrawDebugClear", s:amethyst, s:sunflower, "")
+call <SID>X("RedrawDebugComposed", s:amethyst, s:mint, "")
+call <SID>X("RedrawDebugRecompose", s:amethyst, s:rouge, "")
+call <SID>X("SignColumn", s:shadow, s:purps, "")
+call <SID>X("SpecialKey", s:turquoise, "", "")
+call <SID>X("SpellBad", s:brick, s:linen, "reverse")
+call <SID>X("SpellCap", s:brick, s:linen, "reverse")
+call <SID>X("SpellLocal", s:brick, s:linen, "reverse")
+call <SID>X("SpellRare", s:brick, s:linen, "reverse")
+call <SID>X("StatusLine", s:darklilac, s:shadow, "reverse")
+call <SID>X("StatusLineNC", s:darklilac, s:shadow, "reverse,underline")
+call <SID>X("StatusLineTerm", s:mint, "", "reverse")
+call <SID>X("StatusLineTermNC", s:mint, "", "reverse")
+call <SID>X("TabLine", s:lightgrey, s:shadow, "")
+call <SID>X("TabLineFill", s:amethyst, "", "")
+call <SID>X("TabLineSel", s:linen, s:darklilac, "")
+call <SID>X("Title", s:rouge, "", "")
+call <SID>X("ToolbarButton", s:darklilac, s:shadow, "")
+call <SID>X("ToolbarLine", "", s:lightgrey, "")
+call <SID>X("VertSplit", s:purps, s:shadow, "reverse")
+call <SID>X("VisualNOS", s:lightgrey, "", "")
+call <SID>X("WarningMsg", s:rouge, "", "")
+call <SID>X("WildMenu", s:mint, s:lightgrey, "")
 
 call <SID>X("Character", s:other, "", "")
 call <SID>X("Number", s:darklilac, "", "")
 call <SID>X("String", s:turquoise, "", "italic")
 call <SID>X("Constant", s:other, "", "")
+
+call <SID>X("PreProc", s:lilac, "", "")
+call <SID>X("Include", s:lilac, "", "")
+call <SID>X("Macro", s:lilac, "", "")
+call <SID>X("PreCondit", s:lilac, "", "")
 
 call <SID>X("Comment", s:lightgrey, "", "")
 call <SID>X("Function", s:lilac, "", "")
@@ -69,15 +123,9 @@ call <SID>X("Special", s:sunflower, "", "")
 call <SID>X("Cursor", "", s:linen, "")
 call <SID>X("CursorLine", "", s:amethyst, "")
 call <SID>X("ColorColumn", "", s:shadow, "")
-call <SID>X("Search", s:linen, s:amethyst, "")
-call <SID>X("Visual", s:purps, s:amethyst, "")
+call <SID>X("Search", s:sunflower, s:shadow, "reverse")
+call <SID>X("Visual", "", s:amethyst, "")
 call <SID>X("Todo", s:brick, s:purps, "bold")
-call <SID>X("Error", s:rouge, s:midnight, "")
+call <SID>X("Error", s:brick, s:linen, "reverse")
 
 call <SID>X("pythonSpaceError", "", s:clay, "")
-
-"hi def link pythonDecoratorName         Define
-"hi link Conditional Keyword
-"hi link Repeat Keyword
-
-"hi link cType Keyword
