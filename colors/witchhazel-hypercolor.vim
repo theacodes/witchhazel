@@ -18,7 +18,7 @@ let s:pink = "#FFB8D1"
 let s:brick = "#DC7070"
 let s:clay = "#894E63"
 let s:rouge = "#960050"
-let s:turquoise = "#81EEFF"
+let s:turquoise = "#1Bc5E0"
 let s:sunflower = "#FFF9A3"
 
 let s:lilac = "#DCC8FF"
@@ -51,7 +51,7 @@ call <SID>X("Conceal", "", "", "")
 call <SID>X("CursorIM", "", "", "")
 call <SID>X("CursorLineNr", s:lightgrey, s:amethyst, "")
 call <SID>X("Directory", s:turquoise, "", "")
-call <SID>X("DiffAdd", s:mint, s:linen, "reverse")
+call <SID>X("DiffAdd", s:mint, s:shadow, "reverse")
 call <SID>X("DiffDelete", s:rouge, s:linen, "reverse")
 call <SID>X("DiffChange", s:rouge, s:linen, "reverse")
 call <SID>X("DiffText", s:rouge, s:linen, "reverse")
@@ -63,11 +63,11 @@ call <SID>X("Ignore", s:lightgrey, "", "")
 call <SID>X("IncSearch", s:sunflower, "", "reverse")
 call <SID>X("InfoPopup", s:darklilac, s:shadow, "")
 call <SID>X("LineNr", s:lightgrey, "", "")
-call <SID>X("MatchParen", s:turquoise, s:purps, "")
+call <SID>X("MatchParen", s:turquoise, "NONE", "")
 call <SID>X("ModeMsg", s:mint, "", "")
 call <SID>X("MoreMsg", s:mint, "", "")
 call <SID>X("NonText", s:lightgrey, "", "")
-call <SID>X("NvimInternalError", s:rouge, s:rouge, "")
+call <SID>X("NvimInternalError", s:linen, s:rouge, "")
 call <SID>X("PMenu", s:darklilac, s:shadow, "")
 call <SID>X("PMenuSbar", s:darklilac, s:shadow, "")
 call <SID>X("PMenuSel", s:linen, s:darklilac, "")
@@ -89,12 +89,13 @@ call <SID>X("StatusLineTermNC", s:mint, "", "reverse")
 call <SID>X("TabLine", s:lightgrey, s:shadow, "")
 call <SID>X("TabLineFill", s:amethyst, "", "")
 call <SID>X("TabLineSel", s:linen, s:darklilac, "")
-call <SID>X("Title", s:rouge, "", "")
+call <SID>X("Title", s:pink, "", "")
 call <SID>X("ToolbarButton", s:darklilac, s:shadow, "")
 call <SID>X("ToolbarLine", "", s:lightgrey, "")
+call <SID>X("Underlined", "", "", "underline")
 call <SID>X("VertSplit", s:purps, s:shadow, "reverse")
 call <SID>X("VisualNOS", s:lightgrey, "", "")
-call <SID>X("WarningMsg", s:rouge, "", "")
+call <SID>X("WarningMsg", s:pink, "", "")
 call <SID>X("WildMenu", s:mint, s:lightgrey, "")
 
 call <SID>X("Character", s:other, "", "")
@@ -125,7 +126,13 @@ call <SID>X("CursorLine", "", s:amethyst, "")
 call <SID>X("ColorColumn", "", s:shadow, "")
 call <SID>X("Search", s:sunflower, s:shadow, "reverse")
 call <SID>X("Visual", "", s:amethyst, "")
-call <SID>X("Todo", s:brick, s:purps, "bold")
+call <SID>X("Todo", s:brick, "NONE", "")
 call <SID>X("Error", s:brick, s:linen, "reverse")
+
+call <SID>X("DiagnosticError", s:brick, "", "")
+call <SID>X("DiagnosticWarn", s:brick, "", "")
+call <SID>X("DiagnosticInfo", s:turquoise, "", "")
+call <SID>X("DiagnosticHint", s:lightgrey, "", "")
+call <SID>X("DiagnosticOk", s:mint, "", "")
 
 call <SID>X("pythonSpaceError", "", s:clay, "")
