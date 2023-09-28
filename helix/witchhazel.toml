@@ -1,0 +1,74 @@
+
+"ui.background" = { bg = "purple" }
+"ui.text"       = "bone"
+
+"ui.cursor"        = { bg = "bone", fg = "murk" }
+"ui.cursor.normal" = { bg = "bone", fg = "murk" }
+"ui.cursor.insert" = { bg = "mint" }
+"ui.cursor.match"  = { bg = "smoke", fg = "salmon" }
+"ui.selection"     = { bg = "stone" }
+
+"ui.menu"  = { bg = "murk", fg = "bone" }
+"ui.menu.selected" = { bg = "nightshade" }
+"ui.help"  = { bg = "murk", fg = "cloud" }
+"ui.popup" = { bg = "murk", fg = "cloud" }
+"ui.highlight" = { bg = "purple", fg = "bone" }
+
+"ui.cursorline.primary"     = { bg = "nightshade" }
+"ui.cursorcolumn.primary"   = { bg = "nightshade" }
+"ui.cursorline.secondary"   = { bg = "cloud" }
+"ui.cursorcolumn.secondary" = { bg = "cloud" }
+
+"ui.statusline"        = { bg = "nightshade", fg = "bone" }
+"ui.statusline.normal" = { bg = "nightshade", fg = "bone" }
+"ui.statusline.insert" = { bg = "mint", fg = "murk" }
+"ui.statusline.select" = { modifiers = ["reversed"] }
+"ui.gutter"            = "stone"
+"ui.gutter.selected"   = { bg = "purple", fg = "smoke" }
+
+"ui.virtual" = "stone"
+"ui.virtual.ruler" = { bg = "nightshade" }
+
+"hint"    = "mint"
+"info"    = "daffodil"
+"warning" = "turquoise"
+"error"   = "salmon"
+"diagnostic" = { bg = "#purple" }
+"diagnostic.hint"    = { underline = { color = "mint", style = "curl" } }
+"diagnostic.info"    = { underline = { color = "daffodil", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "turquoise", style = "curl" } }
+"diagnostic.error"   = { underline = { color = "salmon", style = "curl" } }
+
+"comment"      = "smoke"
+"string"       = "turquoise"
+"constant"     = "lilac"
+"keyword"      = "mint"
+"keyword.storage.type" = { modifiers = ["italic"] }
+"keyword.storage.modifier" = "salmon"
+"type"         = "bone"
+"type.builtin" = "mint"
+"function"     = "aster"
+"variable"     = "bone"
+"variable.parameter" = "salmon"
+"tag"          = "peony"
+"attribute"    = "daffodil"
+
+"diff.plus"  = "mint"
+"diff.minus" = "peony"
+"diff.delta" = "turquoise"
+
+[palette]
+purple     = "#433e56"
+nightshade = "#8077a8"
+murk       = "#3c374d"
+bone       = "#f8f8f2"
+cloud      = "#c6c4cc"
+smoke      = "#b0bec5"
+stone      = "#8a8a8a"
+turquoise  = "#1bc5e0"
+lilac      = "#c5a3ff"
+aster      = "#ceb1ff"
+mint       = "#c2ffdf"
+daffodil   = "#fff352"
+salmon     = "#ff857f"
+peony      = "#ffb8d1"
