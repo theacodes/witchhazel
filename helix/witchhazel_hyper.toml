@@ -1,0 +1,79 @@
+
+"ui.background" = { bg = "iris" }
+"ui.text"       = "bone"
+
+"ui.cursor"        = { bg = "bone", fg = "gloom" }
+"ui.cursor.normal" = { bg = "bone", fg = "gloom" }
+"ui.cursor.insert" = { bg = "fern" }
+"ui.cursor.match"  = { bg = "smoke", fg = "peony" }
+"ui.selection"     = { bg = "nightshade" }
+
+"ui.menu"          = { bg = "purple", fg = "cloud" }
+"ui.menu.selected" = { bg = "scum", fg = "gloom" }
+"ui.help"      = { bg = "purple", fg = "cloud" }
+"ui.popup"     = { bg = "purple", fg = "cloud" }
+"ui.window"    = { bg = "purple", fg = "cloud" }
+"ui.highlight" = { bg = "iris", fg = "bone" }
+
+"ui.cursorline.primary"     = { bg = "gloom" }
+"ui.cursorcolumn.primary"   = { bg = "gloom" }
+"ui.cursorline.secondary"   = { bg = "smoke" }
+"ui.cursorcolumn.secondary" = { bg = "smoke" }
+
+"ui.statusline"        = { bg = "thistle", fg = "bone" }
+"ui.statusline.normal" = { bg = "thistle", fg = "bone" }
+"ui.statusline.insert" = { bg = "mint", fg = "murk" }
+"ui.statusline.select" = { modifiers = ["reversed"] }
+"ui.gutter"            = "stone"
+"ui.gutter.selected"   = { bg = "gloom", fg = "cloud" }
+
+"ui.virtual" = "stone"
+"ui.virtual.ruler" = { bg = "gloom" }
+
+"hint"    = "fern"
+"info"    = "scotchbroom"
+"warning" = "carolina"
+"error"   = "peony"
+"diagnostic" = { bg = "iris" }
+"diagnostic.hint"    = { underline = { color = "fern", style = "curl" } }
+"diagnostic.info"    = { underline = { color = "scotchbroom", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "carolina", style = "curl" } }
+"diagnostic.error"   = { underline = { color = "peony", style = "curl" } }
+
+"comment" = "smoke"
+"string"  = "carolina"
+"constant"         = { fg = "aster", modifiers = ["bold"] }
+"constant.numeric" = "scotchbroom"
+"keyword"                  = "fern"
+"keyword.storage.type"     = { fg = "fern", modifiers = ["italic"] }
+"keyword.storage.modifier" = { fg = "sound", modifiers = ["italic"] }
+"type.builtin" = "fern"
+"function" = "aster"
+"variable"           = "bone"
+"variable.parameter" = "peony"
+"tag"       = "peony"
+"attribute" = "scotchbroom"
+"punctuation.delimiter" = "fern"
+"operator" = "fern"
+
+"diff.plus"  = "mint"
+"diff.minus" = "peony"
+"diff.delta" = "turquoise"
+
+[palette]
+gloom       = "#131218"
+iris        = "#282634"
+purple      = "#433e56"
+nightshade  = "#8077a8"
+thistle     = "#8864cb"
+aster       = "#c5a3ff"
+stone       = "#8a8a8a"
+smoke       = "#bfbfbf"
+cloud       = "#c6c4cc"
+bone        = "#f8f8f0"
+scum        = "#64cb96"
+fern        = "#81ffbe"
+sound       = "#46becb"
+carolina    = "#81eeff"
+scotchbroom = "#fff9a3"
+peony       = "#ffb8d1"
