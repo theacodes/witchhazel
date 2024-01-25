@@ -1,0 +1,49 @@
+# Witch Hazel Hypercolor
+
+[colors.primary]
+background = '#282634'
+foreground = '#F8F8F2'
+
+[colors.cursor]
+text   = '#3B364E'
+cursor = '#F8F8F0'
+
+[colors.search]
+matches       = { background = '#FFF9A3', foreground = '#282634' }
+focused_match = { background = '#FFF9A3', foreground = '#282634' }
+
+[colors.hints]
+start = { foreground = '#1E0010', background = '#DCC8FF' }
+end   = { foreground = '#1E0010', background = '#DCC8FF' }
+
+[colors.line_indicator]
+foreground = '#1E0010'
+background = '#DCC8FF'
+
+[colors.footer_bar]
+foreground = '#1E0010'
+background = '#DCC8FF'
+
+[colors.selection]
+text       = 'CellForeground'
+background = '#131218'
+
+[colors.normal]
+black   = '#1E0010'
+red     = '#DC7070'
+green   = '#81FFBE'
+yellow  = '#FFF9A3'
+blue    = '#1BC5E0'
+magenta = '#FFB8D1'
+cyan    = '#81FFBE'
+white   = '#DCC8FF'
+
+[colors.bright]
+black   = '#3B364E'
+red     = '#DC7070'
+green   = '#81FFBE'
+yellow  = '#FFF9A3'
+blue    = '#1BC5E0'
+magenta = '#FFB8D1'
+cyan    = '#81FFBE'
+white   = '#BFBFBF'
