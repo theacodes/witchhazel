@@ -5,8 +5,8 @@
 "ui.cursor"        = { bg = "bone", fg = "murk" }
 "ui.cursor.normal" = { bg = "bone", fg = "murk" }
 "ui.cursor.insert" = { bg = "mint" }
-"ui.cursor.match"  = { bg = "smoke", fg = "salmon" }
-"ui.selection"     = { bg = "stone" }
+"ui.cursor.match"  = "turquoise"
+"ui.selection"     = { bg = "amethyst" }
 
 "ui.menu"  = { bg = "murk", fg = "bone" }
 "ui.menu.selected" = { bg = "nightshade" }
@@ -72,3 +72,4 @@ mint       = "#c2ffdf"
 daffodil   = "#fff352"
 salmon     = "#ff857f"
 peony      = "#ffb8d1"
+amethyst   = "#716799"
