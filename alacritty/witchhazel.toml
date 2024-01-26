@@ -1,0 +1,49 @@
+# Witch Hazel Classic
+
+[colors.primary]
+background = '#433E56'
+foreground = '#F8F8F2'
+
+[colors.cursor]
+text   = '#3B364E'
+cursor = '#F8F8F2'
+
+[colors.search]
+matches       = { background = '#FFF352', foreground = '#433E56' }
+focused_match = { background = '#FFF352', foreground = '#433E56' }
+
+[colors.hints]
+start = { foreground = '#1E0010', background = '#DCC8FF' }
+end   = { foreground = '#1E0010', background = '#DCC8FF' }
+
+[colors.line_indicator]
+foreground = '#1E0010'
+background = '#DCC8FF'
+
+[colors.footer_bar]
+foreground = '#1E0010'
+background = '#DCC8FF'
+
+[colors.selection]
+text = 'CellForeground'
+background = '#716799'
+
+[colors.normal]
+black   = '#1e0010'
+red     = '#F92672'
+green   = '#C2FFDF'
+yellow  = '#FFF352'
+blue    = '#1BC5E0'
+magenta = '#FF857F'
+cyan    = '#C2FFDF'
+white   = '#CEB1FF'
+
+[colors.bright]
+black   = '#3B364E'
+red     = '#F92672'
+green   = '#C2FFDF'
+yellow  = '#FFF352'
+blue    = '#1BC5E0'
+magenta = '#FF857F'
+cyan    = '#C2FFDF'
+white   = '#B0BEC5'

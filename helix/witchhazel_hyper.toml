@@ -5,8 +5,8 @@
 "ui.cursor"        = { bg = "bone", fg = "gloom" }
 "ui.cursor.normal" = { bg = "bone", fg = "gloom" }
 "ui.cursor.insert" = { bg = "fern" }
-"ui.cursor.match"  = { bg = "smoke", fg = "peony" }
-"ui.selection"     = { bg = "nightshade" }
+"ui.cursor.match"  = "carolina"
+"ui.selection"     = { bg = "gloom" }
 
 "ui.menu"          = { bg = "purple", fg = "cloud" }
 "ui.menu.selected" = { bg = "scum", fg = "gloom" }
