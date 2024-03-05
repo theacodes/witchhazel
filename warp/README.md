@@ -2,7 +2,7 @@
 
 1. `mkdir -p ~/.warp/themes` if the directory is not already created.
 2. `cd ~/.warp/themes` and `git clone https://github.com/theacodes/witchhazel witchhazel-full`.
-3. `mv -rf ~/.warp/themes/witchhazel-full/warp ~/.warp/themes/witchhazel`
+3. `mkdir witchhazel` and `mv ~/.warp/themes/witchhazel-full/warp/* ~/.warp/themes/witchhazel`
 4. `rm -rf ~/.warp/themes/witchhazel-full`
 5. Open `Warp > Settings > Appearance > Themes`, scroll all the way down to see the new Witch Hazel themes.
 
