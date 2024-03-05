@@ -1,0 +1,29 @@
+## name:     Witch Hazel
+## author:   Anya Taylor
+## license:  MIT
+## upstream: 
+## blurb:    A dark & feminine color scheme.
+
+accent: "#dcc8ff"
+background: "#433E56"
+foreground: "#F8F8F2"
+details: "darker"
+terminal_colors:
+  normal:
+    black: "#1e0010"
+    red: "#F92672"
+    green: "#C2FFDF"
+    yellow: "#FFF352"
+    blue: "#1Bc5E0"
+    magenta: "#FF857F"
+    cyan: "#C2FFDF"
+    white: "#CEB1FF"
+  bright:
+    black: "#3B364E"
+    red: "#F92672"
+    green: "#C2FFDF"
+    yellow: "#FFF352"
+    blue: "#1Bc5E0"
+    magenta: "#FF857F"
+    cyan: "#C2FFDF"
+    white: "#B0BEC5"
