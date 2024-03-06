@@ -1,0 +1,29 @@
+## name:     Witch Hazel Hypercolor
+## author:   Anya Taylor
+## license:  MIT
+## upstream: 
+## blurb:    A dark & feminine color scheme.
+
+accent: "#8860CE"
+background: "#282634"
+foreground: "#F8F8F2"
+details: "darker"
+terminal_colors:
+  normal:
+    black: "#1e0010"
+    red: "#DC7070"
+    green: "#81FFBE"
+    yellow: "#FFF9A3"
+    blue: "#FFB8D1"
+    magenta: "#FFB8D1"
+    cyan: "#81FFBE"
+    white: "#DCC8FF"
+  bright:
+    black: "#3B364E"
+    red: "#DC7070"
+    green: "#81FFBE"
+    yellow: "#FFF9A3"
+    blue: "#1Bc5E0"
+    magenta: "#FFB8D1"
+    cyan: "#81FFBE"
+    white: "#BFBFBF"
