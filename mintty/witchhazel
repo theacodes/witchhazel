@@ -1,0 +1,160 @@
+# witchhazel theme for use with mintty
+#
+#   "scheme-name": "witchhazel",
+#   "scheme-author": "theacodes and 0x-voidptr",
+#   "scheme-slug": "witchhazel",
+#
+#   scheme-comment:  https://github.com/theacodes/witchhazel
+#   scheme-comment1: https://witchhazel.thea.codes/
+#   scheme-comment2: TODO add color comments with names, see https://github.com/theacodes/witchhazel/blob/master/witchhazel.nvim/lua/witchhazel/palette.lua
+#   scheme-comment3: 
+#   scheme-comment4: 
+#   scheme-comment5: 
+#   scheme-comment6: 
+#   scheme-comment7: 
+#   scheme-comment8: 
+#   scheme-comment9: 
+#
+#   - https://mintty.github.io/
+#   - https://github.com/mintty/mintty
+#   - https://mintty.github.io/mintty.1.html
+#
+# NOTE tstk has no concept of different colors for foreground and
+# background versions of a color name as described in
+# https://mintty.github.io/mintty.1.html#CONFIGURATION section, "ANSI colours"
+# > The ANSI colours can have different values for foreground and background use.
+# > These need to be separated by a semicolon, for example 127,127,127;85,85,85
+# > for different shades of grey. If only one value is specified,
+# > it is used for both foreground and background.
+
+# Colour2-comment: 
+#    Colour2-note: 
+#         Colour2: #433E56
+BackgroundColour = 67,62,86
+
+# Colour0-comment: 
+#    Colour0-note: 
+#         Colour0: #F8F8F2
+ForegroundColour = 248,248,242
+
+# Colour5-comment: 
+#    Colour5-note: 
+#         Colour5: #F8F8F2
+CursorColour = 248,248,242
+
+
+# ANSI Black
+# 30m / 40m
+#  Colour6-comment: 
+#     Colour6-note: 
+#          Colour6: #1e0010
+Black = 30,0,16
+
+# ANSI Black Bright
+# 1;30m
+#  Colour7-comment: 
+#     Colour7-note: 
+#          Colour7: #3B364E
+BoldBlack = 59,54,78
+
+# ANSI Red
+# 31m / 41m
+#  Colour8-comment: 
+#     Colour8-note: 
+#          Colour8: #F92672
+Red = 249,38,114
+
+# ANSI Red Bright
+# 1;31m
+#  Colour9-comment: 
+#     Colour9-note: 
+#          Colour9: #F92672
+BoldRed = 249,38,114
+
+# ANSI Green
+# 32m / 42m
+# Colour10-comment: 
+#    Colour10-note: 
+#         Colour10: #C2FFDF
+Green = 194,255,223
+
+# ANSI Green Bright
+# 1;32m
+# Colour11-comment: 
+#    Colour11-note: 
+#         Colour11: #C2FFDF
+BoldGreen = 194,255,223
+
+# ANSI Yellow
+# 33m / 43m
+# Colour12-comment: 
+#    Colour12-note: 
+#         Colour12: #FFF352
+Yellow = 255,243,82
+
+# ANSI Yellow Bright
+# 1;33m
+# Colour13-comment: 
+#    Colour13-note: 
+#         Colour13: #FFF352
+BoldYellow = 255,243,82
+
+# ANSI Blue
+# 34m / 44m
+# Colour14-comment: 
+#    Colour14-note: 
+#         Colour14: #1BC5E0
+Blue = 27,197,224
+
+# ANSI Blue Bright
+# 1;34m
+# Colour15-comment: 
+#    Colour15-note: 
+#         Colour15: #1BC5E0
+BoldBlue = 27,197,224
+
+# ANSI Magenta
+# 35m / 45m
+# Colour16-comment: 
+#    Colour16-note: 
+#         Colour16: #FF857F
+Magenta = 255,133,127
+
+# ANSI Magenta Bright
+# 1;35m
+# Colour17-comment: 
+#    Colour17-note: 
+#         Colour17: #FF857F
+BoldMagenta = 255,133,127
+
+# ANSI Cyan
+# 36m / 46m
+# Colour18-comment: 
+#    Colour18-note: 
+#         Colour18: #C2FFDF
+Cyan = 194,255,223
+
+# ANSI Cyan Bright
+# 1;36m
+# Colour19-comment: 
+#    Colour19-note: 
+#         Colour19: #C2FFDF
+BoldCyan = 194,255,223
+
+# ANSI White
+# 37m / 47m
+# Colour20-comment: 
+#    Colour20-note: 
+#         Colour20: #CEB1FF
+White = 206,177,255
+
+# ANSI White Bright
+# 1;37m
+# Colour21-comment: 
+#    Colour21-note: 
+#         Colour21: #B0BEC5
+BoldWhite = 176,190,197
+
+# {{! Theme rendered with https://github.com/clach04/terminal_style_toolkit }}
+# {{! py -3 json2putty_reg.py putty_themes\raw_themes\Nord_flipped_blue.json mintty_theme.mustache %APPDATA%\mintty\themes\Nord_flipped_blue }}
+# {{! "C:\Program Files\Git\usr\bin\mintty.exe" --title "mintty show colors" --hold  always --size 90,65 py -3 pyshow_colors2.py }}

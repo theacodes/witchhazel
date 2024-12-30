@@ -1,0 +1,31 @@
+{
+  "special": {
+    "foreground": "F8F8F2",
+    "background": "433E56",
+    "cursor": "F8F8F2"
+  },
+  "colors": {
+    "color0": "1e0010",
+    "color1": "F92672",
+    "color2": "C2FFDF",
+    "color3": "FFF352",
+    "color4": "1BC5E0",
+    "color5": "FF857F",
+    "color6": "C2FFDF",
+    "color7": "CEB1FF",
+    "color8": "3B364E",
+    "color9": "F92672",
+    "color10": "C2FFDF",
+    "color11": "FFF352",
+    "color12": "1BC5E0",
+    "color13": "FF857F",
+    "color14": "C2FFDF",
+    "color15": "B0BEC5",
+
+
+    "color16": "3B364E",
+    "color17": "F8F8F2"
+  },
+  "TST_COMMENT1": "color16 and color17 **could** be fg_bold and cursor_text?",
+  "TST_COMMENT2": "template to generate pywal16.json file from https://github.com/clach04/terminal_style_toolkit/"
+}
