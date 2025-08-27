@@ -125,7 +125,7 @@ call <SID>X("Cursor", "", s:linen, "")
 call <SID>X("CursorLine", "", s:amethyst, "")
 call <SID>X("ColorColumn", "", s:shadow, "")
 call <SID>X("Search", s:sunflower, s:shadow, "reverse")
-call <SID>X("Visual", "", s:amethyst, "")
+call <SID>X("Visual", "", s:lilac, "")
 call <SID>X("Todo", s:brick, "NONE", "")
 call <SID>X("Error", s:brick, s:linen, "reverse")
 
